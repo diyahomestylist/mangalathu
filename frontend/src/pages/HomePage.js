@@ -1,12 +1,12 @@
 import React, { useState } from 'react';
 import Header from '../components/Header';
-import HeroSection from '../components/HeroSection';
+import SliderRevolution from '../components/SliderRevolution';
 import ServicesSection from '../components/ServicesSection';
 import StatsSection from '../components/StatsSection';
-import ProjectsSection from '../components/ProjectsSection';
+import PortfolioManager from '../components/PortfolioManager';
 import TestimonialsSection from '../components/TestimonialsSection';
 import BlogSection from '../components/BlogSection';
-import ContactSection from '../components/ContactSection';
+import AdvancedContactForm from '../components/AdvancedContactForm';
 import Footer from '../components/Footer';
 import { mockData } from '../mock';
 
@@ -16,17 +16,30 @@ const HomePage = () => {
   return (
     <div className="min-h-screen bg-gray-50">
       <Header navigation={mockData.navigation} />
-      <HeroSection 
-        heroData={mockData.hero} 
-        currentHero={currentHero}
-        setCurrentHero={setCurrentHero}
+      
+      {/* Advanced Slider Revolution Hero */}
+      <SliderRevolution 
+        slides={mockData.sliderRevolutionData}
+        autoPlay={true}
+        duration={6000}
+        showControls={true}
       />
+      
       <ServicesSection services={mockData.services} />
       <StatsSection stats={mockData.stats} />
-      <ProjectsSection projects={mockData.projects} />
+      
+      {/* Advanced Portfolio Manager */}
+      <PortfolioManager 
+        projects={mockData.projects}
+        categories={mockData.portfolioCategories}
+      />
+      
       <TestimonialsSection testimonials={mockData.testimonials} />
       <BlogSection posts={mockData.blogPosts} />
-      <ContactSection company={mockData.company} />
+      
+      {/* Advanced Contact Form */}
+      <AdvancedContactForm company={mockData.company} />
+      
       <Footer company={mockData.company} />
     </div>
   );
