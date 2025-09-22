@@ -1,0 +1,603 @@
+# Copyright (C) 2017 ProteusThemes
+# This file is distributed under the GPL 2.0.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: One Click Demo Import 2.1.0\n"
+"Report-Msgid-Bugs-To: http://support.proteusthemes.com/\n"
+"POT-Creation-Date: 2024-06-05 07:44+0000\n"
+"PO-Revision-Date: 2024-09-17 10:17+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: da\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.5\n"
+"X-Poedit-KeywordsList: __;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;"
+"_nx_noop:1,2,3c;esc_attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;"
+"esc_html_x:1,2c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: inc/Helpers.php:95
+#, php-format
+msgid ""
+"\"import_file_url\" or \"local_import_file\" for %s%s%s are not defined!"
+msgstr ""
+"\"import_file_url\" eller \"local_import_file\" for %s %s %s er ikke "
+"defineret!"
+
+#: ohio-importer.php:52
+msgid ""
+"\"Ohio Importer\" plugin conflicts with \"One Click Demo Import\" plugin. "
+"Activation of both plugins is not possible at the same time."
+msgstr ""
+"\"Ohio Importer\"-plugin er i konflikt med \"One Click Demo Import\"-plugin. "
+"Aktivering af begge plugins er ikke mulig på samme tid."
+
+#: inc/OhioImporter.php:527
+#, php-format
+msgid ""
+"%1$s%3$sThat's it, all done! The demo import has finished. Please check the "
+"demo and make sure that everything has imported correctly."
+msgstr ""
+"%1$s %3$s Det var det, alt er færdigt! Demoimporten er fuldført. Tjek demoen "
+"og sørg for, at alt er importeret korrekt."
+
+#: views/plugin-page.php:109
+#, php-format
+msgid ""
+"%sWarning: your server is using %sPHP safe mode%s. This means that you might "
+"experience server timeout errors.%s"
+msgstr ""
+"%s Advarsel: Din server bruger %sPHP sikker tilstand%s. Det betyder, at du "
+"kan opleve servertimeoutfejl. %s"
+
+#: inc/Helpers.php:463
+#, fuzzy, php-format
+msgid ""
+"%sYour user role isn't high enough. You don't have permission to import demo "
+"data.%s"
+msgstr ""
+"%sYour brugerrolle er ikke høj nok. Du har ikke tilladelse til at importere "
+"demodata. %s"
+
+#: views/plugin-page.php:144 views/plugin-page.php:149
+#: views/plugin-page.php:155
+msgid "(*optional)"
+msgstr "(*valgfrit)"
+
+#: views/plugin-page.php:359
+msgid "(file_uploads)"
+msgstr "(file_uploads)"
+
+#: views/plugin-page.php:330
+msgid "(max_execution_time)"
+msgstr "(max_execution_time)"
+
+#: views/plugin-page.php:317
+msgid "(memory_limit)"
+msgstr "(memory_limit)"
+
+#: views/plugin-page.php:346
+msgid "(upload_max_filesize)"
+msgstr "(upload_max_filesize)"
+
+#: views/plugin-page.php:338
+msgid "- Please adjust this value in order to meet the theme requirements."
+msgstr "- Juster denne værdi for at opfylde temakravene."
+
+#: views/plugin-page.php:390
+msgid "About"
+msgstr "Om"
+
+#: inc/OhioImporter.php:192
+msgid "Activate"
+msgstr "Aktiver"
+
+#: views/plugin-page.php:296
+msgid "Actual Value"
+msgstr "Faktisk værdi"
+
+#: views/plugin-page.php:46
+msgid "All Demos"
+msgstr "Alle demoer"
+
+#: views/plugin-page.php:217
+msgid "All Pages"
+msgstr "Alle sider"
+
+#: inc/Downloader.php:76
+#, php-format
+msgid ""
+"An error occurred while fetching file from: %1$s%2$s%3$s!%4$sReason: %5$s - "
+"%6$s."
+msgstr ""
+"Der opstod en fejl under hentning af fil fra: %1$s%2$s%3$s! %4$s Årsag: %5$s "
+"- %6$s."
+
+#: inc/Helpers.php:334
+#, php-format
+msgid ""
+"An error occurred while reading a file from your server! Tried reading file "
+"from path: %s%s."
+msgstr ""
+"Der opstod en fejl under læsning af en fil fra din server! Forsøgte at læse "
+"filen fra stien: %s %s."
+
+#: inc/Helpers.php:381
+msgid ""
+"An error occurred while retrieving reading/writing permissions to your "
+"server (could not retrieve WP filesystem credentials)!"
+msgstr ""
+"En fejl opstod under hentning læsning/skrivning tilladelser til din server "
+"(kunne ikke hente WP filesystem credentials)!"
+
+#: inc/Helpers.php:257 inc/Helpers.php:300
+#, php-format
+msgid ""
+"An error occurred while writing file to your server! Tried to write a file "
+"to: %s%s."
+msgstr ""
+"Der opstod en fejl under skrivning af filer til din server! Forsøgte at "
+"skrive en fil til: %s %s."
+
+#: views/plugin-page.php:364 views/plugin-page.php:372
+msgid "Available"
+msgstr "Tilgængelig"
+
+#: inc/OhioImporter.php:190
+msgid "Cancel"
+msgstr "Annuller"
+
+#: views/plugin-page.php:91
+msgid "checkbox in the popup to import without global options."
+msgstr ""
+"afkrydsningsfeltet i pop op-vinduet for at importere uden globale "
+"indstillinger."
+
+#: views/plugin-page.php:149
+msgid "Choose a DAT file for customizer import:"
+msgstr "Vælg en DAT-fil til import af tilpasning:"
+
+#: views/plugin-page.php:155
+msgid "Choose a JSON file for Redux import:"
+msgstr "Vælg en JSON-fil til Redux-import:"
+
+#: views/plugin-page.php:144
+msgid "Choose a WIE or JSON file for widget import:"
+msgstr "Vælg en WIE- eller JSON-fil til widgetimport:"
+
+#: views/plugin-page.php:139
+msgid "Choose a XML file for content import:"
+msgstr "Vælg et XML-arkiv til import af indhold:"
+
+#: inc/OhioImporter.php:191
+msgid "Close"
+msgstr "Luk"
+
+#. Author of the plugin
+msgid "Colabrio"
+msgstr "Colabrio"
+
+#: views/plugin-page.php:377
+msgid ""
+"Contact your hosting provider and ask them to increase the limits to a "
+"minimum of the following."
+msgstr ""
+"Kontakt din hostingudbyder og bed dem om at øge grænserne til et minimum af "
+"følgende."
+
+#: inc/Helpers.php:533
+#, php-format
+msgid "Customizer file was not uploaded. Error: %s"
+msgstr "Tilpasningsfilen blev ikke uploadet. Fejl: %s"
+
+#: inc/CustomizerImporter.php:43
+msgid "Customizer settings import finished!"
+msgstr "Import af tilpasningsindstillinger er færdig!"
+
+#: views/plugin-page.php:23
+msgid "Dashboard"
+msgstr "Kontrolpanel"
+
+#: views/plugin-page.php:399
+msgid ""
+"Demo content with posts, custom post types, pages, categories, tags, media "
+"files, local page settings and"
+msgstr ""
+"Demoindhold med indlæg, brugerdefinerede indlægstyper, sider, kategorier, "
+"tags, mediefiler, lokale sideindstillinger og"
+
+#: inc/OhioImporter.php:136 inc/OhioImporter.php:189 inc/Helpers.php:369
+#: views/plugin-page.php:25 views/plugin-page.php:166 views/plugin-page.php:178
+msgid "Demo Import"
+msgstr "Demo import"
+
+#: views/plugin-page.php:20
+msgid "Demo Importer"
+msgstr "Turbo demo importør"
+
+#: views/plugin-page.php:37 views/plugin-page.php:183
+msgid "Demo Templates"
+msgstr "Demo skabeloner"
+
+#: views/plugin-page.php:295
+msgid "Directive"
+msgstr "Direktiv"
+
+#: views/plugin-page.php:367
+msgid "Disabled"
+msgstr "Deaktiveret"
+
+#: views/plugin-page.php:392
+msgid "Docs"
+msgstr "Dokumenter"
+
+#: inc/OhioImporter.php:289 inc/OhioImporter.php:300
+msgid "Downloaded files"
+msgstr "Downloadede filer"
+
+#: views/plugin-page.php:268
+msgid "Downloading the demo content"
+msgstr "Download af demoindholdet"
+
+#: views/plugin-page.php:158
+msgid "Enter the Redux option name:"
+msgstr "Indtast navnet på Redux-indstillingen:"
+
+#: inc/CustomizerImporter.php:73
+#, php-format
+msgid "Error: The customizer import file is missing! File path: %s"
+msgstr "Fejl: Customizer-importfilen mangler! Filsti: %s"
+
+#: inc/CustomizerImporter.php:93
+msgid ""
+"Error: The customizer import file is not in a correct format. Please make "
+"sure to use the correct customizer import file."
+msgstr ""
+"Fejl: Tilpasningsimportfilen er ikke i et korrekt format. Sørg for at bruge "
+"den korrekte customizer-importfil."
+
+#: inc/CustomizerImporter.php:99
+msgid ""
+"Error: The customizer import file is not suitable for current theme. You can "
+"only import customizer settings for the same theme or a child theme."
+msgstr ""
+"Fejl: Customizer-importfilen er ikke egnet til det aktuelle tema. Du kan kun "
+"importere tilpasningsindstillinger for det samme tema eller et underordnet "
+"tema."
+
+#: inc/WidgetImporter.php:118
+msgid ""
+"Error: Widget import data could not be read. Please try a different file."
+msgstr "Fejl: Widget-importdata kunne ikke læses. Prøv en anden fil."
+
+#: inc/WidgetImporter.php:88
+msgid "Error: Widget import file could not be found."
+msgstr "Fejl: Widget-importfilen blev ikke fundet."
+
+#: views/plugin-page.php:359
+msgid "File Upload Permission:"
+msgstr "Tilladelse til filupload:"
+
+#: inc/Helpers.php:604
+#, php-format
+msgid ""
+"Files info:%1$sSite URL = %2$s%1$sData file = %3$s%1$sWidget file = "
+"%4$s%1$sCustomizer file = %5$s%1$sRedux files:%1$s%6$s"
+msgstr ""
+"Filinfo:%1$sSite URL = %2$s%1$sDatafil = %3$s%1$sWidget-fil = "
+"%4$s%1$sCustomizer-fil = %5$s%1$sRedux-filer:%1$s%6$s"
+
+#: views/plugin-page.php:223
+msgid "Forms - Contact Form 7"
+msgstr "Formularer - Kontaktformular 7"
+
+#: views/plugin-page.php:76 views/plugin-page.php:385
+msgid "Getting Help"
+msgstr "Sådan får du hjælp"
+
+#: views/plugin-page.php:89
+msgid "Heads up!"
+msgstr "Klar!"
+
+#. URI of the plugin
+#. Author URI of the plugin
+msgid "https://clbthemes.com"
+msgstr "https://clbthemes.com"
+
+#: views/plugin-page.php:260
+msgid "Import"
+msgstr "Importer"
+
+#. Description of the plugin
+msgid "Import premade demo templates with a single click."
+msgstr "Importer færdiglavede demoskabeloner med et enkelt klik."
+
+#: inc/WidgetImporter.php:269
+msgid "Imported"
+msgstr "Importeret"
+
+#: inc/WidgetImporter.php:273
+msgid "Imported to Inactive"
+msgstr "Imported to Inactive"
+
+#: inc/CustomizerImporter.php:37 inc/CustomizerImporter.php:45
+msgid "Importing customizer settings"
+msgstr "Importerer tilpasnings indstillinger"
+
+#: inc/ReduxImporter.php:32 inc/ReduxImporter.php:53 inc/ReduxImporter.php:66
+msgid "Importing Redux settings"
+msgstr "Import af Redux-indstillinger"
+
+#: inc/WidgetImporter.php:40 inc/WidgetImporter.php:52
+msgid "Importing widgets"
+msgstr "Importerer widgets"
+
+#: inc/Helpers.php:600
+#, php-format
+msgid "Initial max execution time = %s"
+msgstr "Initial Max Execution Time = %s"
+
+#: inc/OhioImporter.php:194
+msgid "Install Theme Settings"
+msgstr "Installer temaindstillinger"
+
+#: views/plugin-page.php:136
+msgid "Manual demo files upload"
+msgstr "Manuel upload af demofiler"
+
+#: inc/OhioImporter.php:274
+msgid "Manually uploaded files"
+msgstr "Manuelt uploadede filer"
+
+#: inc/Helpers.php:546
+msgid "Missing Redux option name! Please also enter the Redux option name!"
+msgstr ""
+"Mangler Redux-indstillingsnavn! Indtast også navnet på Redux-indstillingen!"
+
+#: inc/Downloader.php:58
+msgid "Missing URL for downloading a file!"
+msgstr "Manglende URL til download af en fil!"
+
+#: inc/Importer.php:175
+msgid "New AJAX call!"
+msgstr "Nyt AJAX-opkald!"
+
+#: views/plugin-page.php:399
+msgid ""
+"No existing data (e.g. posts, pages, categories, tags, media files etc.) "
+"will be replaced or modified."
+msgstr ""
+"Ingen eksisterende data (f.eks. indlæg, sider, kategorier, tags, mediefiler "
+"osv.) vil blive erstattet eller ændret."
+
+#: inc/OhioImporter.php:305
+msgid "No import files specified!"
+msgstr "Der er ikke angivet importfiler!"
+
+#: inc/OhioImporter.php:188
+msgid "No preview image defined for this import."
+msgstr "Der er ikke defineret noget forvisnings-billede for denne import."
+
+#: views/plugin-page.php:206
+msgid "No preview image."
+msgstr "Intet forvisnings-billede."
+
+#: inc/WidgetImporter.php:326
+msgid "No results for widget import!"
+msgstr "Ingen resultater for widget-import!"
+
+#: inc/WidgetImporter.php:279
+msgid "No Title"
+msgstr "Ingen titel"
+
+#: inc/Helpers.php:608 inc/Helpers.php:609 inc/Helpers.php:610
+msgid "not defined!"
+msgstr "ikke defineret!"
+
+#. Name of the plugin
+#: inc/OhioImporter.php:135
+msgid "Ohio Importer"
+msgstr "Importør i Ohio"
+
+#: inc/Helpers.php:368
+msgid "One Click Demo Import"
+msgstr "Importér demo med ét klik"
+
+#: inc/Helpers.php:429
+msgid "One Click Demo Import - "
+msgstr "Et klik demo import "
+
+#: views/plugin-page.php:236 views/plugin-page.php:245
+msgid "Open"
+msgstr "Åben"
+
+#: views/plugin-page.php:90
+msgid "override with each import."
+msgstr "tilsidesættelse ved hver import."
+
+#: views/plugin-page.php:317
+msgid "PHP Memory Limit:"
+msgstr "PHP hukommelsesgrænse:"
+
+#: views/plugin-page.php:330
+msgid "PHP Time Limit:"
+msgstr "PHP Time Limit:"
+
+#: views/plugin-page.php:304
+msgid "PHP Version:"
+msgstr "PHP Version:"
+
+#: ohio-importer.php:54
+msgid ""
+"Please deactivate \"One Click Demo Import\" plugin in order to use \"Ohio "
+"Importer\"."
+msgstr ""
+"Deaktiver venligst \"One Click Demo Import\" plugin for at bruge \"Ohio "
+"Importer\"."
+
+#: inc/Helpers.php:498
+msgid ""
+"Please upload XML file for content import. If you want to import widgets or "
+"customizer settings only, please use Widget Importer & Exporter or the "
+"Customizer Export/Import plugin."
+msgstr ""
+"Upload XML-fil til indholds import. Selv om jer ville gerne import lille "
+"dims eller tilpasse opsætning bare, behage hjælp lille dims importør & "
+"eksportør eller den tilpasse eksport/import stik."
+
+#: views/plugin-page.php:214
+msgid "Portfolio Projects"
+msgstr "Portfolio Projekter"
+
+#: views/plugin-page.php:220
+msgid "Products"
+msgstr "Produkter"
+
+#: inc/Helpers.php:564
+#, php-format
+msgid "Redux file was not uploaded. Error: %s"
+msgstr "Redux-filen blev ikke uploadet. Fejl: %s"
+
+#: inc/ReduxImporter.php:51
+#, php-format
+msgid "Redux settings import for: %s finished successfully!"
+msgstr "Redux-indstillinger importeres for: %s afsluttet med succes!"
+
+#: views/plugin-page.php:297
+msgid "Required Value"
+msgstr "Påkrævet værdi"
+
+#: views/plugin-page.php:289
+msgid "Requirements"
+msgstr "Systemkrav"
+
+#: views/plugin-page.php:101
+msgid "Search demos..."
+msgstr "Søg demoer..."
+
+#: views/plugin-page.php:286
+msgid "Server Environment"
+msgstr "Server miljø"
+
+#: inc/WidgetImporter.php:157
+msgid "Sidebar does not exist in theme (moving widget to Inactive)"
+msgstr "Sidebar findes ikke i tema (flytter widget til inaktive)"
+
+#: inc/WidgetImporter.php:178
+msgid "Site does not support widget"
+msgstr "Site does not support widget"
+
+#: views/plugin-page.php:68 views/plugin-page.php:281
+msgid "System Status"
+msgstr "System status"
+
+#: ohio-importer.php:93
+#, php-format
+msgid ""
+"The %2$sOne Click Demo Import%3$s plugin requires %2$sPHP 5.3.2+%3$s to run "
+"properly. Please contact your hosting company and ask them to update the PHP "
+"version of your site to at least PHP 5.3.2.%4$s Your current version of PHP: "
+"%2$s%1$s%3$s"
+msgstr ""
+"Plugin'et %2$sOne Click Demo Import%3$s kræver %2$sPHP 5.3.2+%3$s for at "
+"køre korrekt. Kontakt dit hostingfirma og bed dem om at opdatere PHP-"
+"versionen af dit websted til mindst PHP 5.3.2. %4$s Din nuværende version af "
+"PHP: %2$s%1$s%3$s"
+
+#: inc/OhioImporter.php:296
+#, php-format
+msgid "The import files for: %s were successfully downloaded!"
+msgstr "Importfilerne for: %s blev overført!"
+
+#: inc/Helpers.php:574
+msgid "The import files were successfully uploaded!"
+msgstr "Import-filen blev overført!"
+
+#: inc/ReduxImporter.php:57
+#, php-format
+msgid ""
+"The Redux option name: %s, was not found in this WP site, so it was not "
+"imported!"
+msgstr ""
+"Redux-indstillingsnavnet: %s, blev ikke fundet på dette WP-websted, så det "
+"blev ikke importeret!"
+
+#: inc/ReduxImporter.php:23
+msgid "The Redux plugin is not activated, so the Redux import was skipped!"
+msgstr "Redux-pluginet er ikke aktiveret, så Redux-import blev sprunget over!"
+
+#: views/plugin-page.php:24 views/plugin-page.php:90 views/plugin-page.php:91
+#: views/plugin-page.php:399
+msgid "Theme Settings"
+msgstr "Temaindstillinger"
+
+#: views/plugin-page.php:132
+msgid ""
+"There are no predefined import files available in this theme. Please upload "
+"the import files manually!"
+msgstr ""
+"Der er ingen foruddefinerede importfiler tilgængelige i dette tema. Upload "
+"venligst importfilerne manuelt!"
+
+#: views/plugin-page.php:269
+msgid "This process may take a while on some hosts, so please be patient."
+msgstr "Denne proces kan tage et stykke tid for nogle værter, så vær tålmodig."
+
+#: inc/Helpers.php:357
+#, fuzzy, php-format
+msgid ""
+"This WordPress page does not have %sdirect%s write file access. This plugin "
+"needs it in order to save the demo import xml file to the upload directory "
+"of your site. You can change this setting with these instructions: %s."
+msgstr ""
+"Indeværende WordPress side gør ikke nyde %sdirect %s skriv fil adgang. Dette "
+"plugin har brug for det for at gemme demo import XML-fil til upload mappe på "
+"dit websted. Du kan ændre denne indstilling med disse instruktioner: %s."
+
+#: views/plugin-page.php:91
+msgid "Toggle"
+msgstr "Skift"
+
+#: inc/Helpers.php:500 inc/Helpers.php:520 inc/Helpers.php:537
+#: inc/Helpers.php:548 inc/Helpers.php:568 inc/Helpers.php:576
+msgid "Upload files"
+msgstr "Upload filer"
+
+#: views/plugin-page.php:396
+msgid "When you import the demo data, the following things will happen:"
+msgstr "Når du importerer demodataene, sker der følgende:"
+
+#: inc/WidgetImporter.php:211
+msgid "Widget already exists"
+msgstr "Widget findes allerede"
+
+#: inc/Helpers.php:516
+#, php-format
+msgid "Widget file was not uploaded. Error: %s"
+msgstr "Widget-filen blev ikke uploadet. Fejl: %s"
+
+#: views/plugin-page.php:399
+msgid "will get imported."
+msgstr "vil blive importeret."
+
+#: views/plugin-page.php:346
+msgid "WP Max Upload Size:"
+msgstr "WP Max Upload Størrelse:"
+
+#: inc/OhioImporter.php:193
+msgid "Yes, import!"
+msgstr "Ja, importér!"
+
+#: inc/Helpers.php:389
+#, fuzzy
+msgid "Your WordPress login credentials don't allow to use WP_Filesystem!"
+msgstr ""
+"Jeres WordPress login credentials dont ' indrømme hen til hjælp "
+"WP_Filesystem!"
